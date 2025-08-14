@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayu Advertising and Printing - Professional Printing Services in Holeta</title>
+    <meta name="description" content="Quality printing services in Holeta, Oromia. Business cards, banners, flyers, brochures, and all advertising materials at competitive prices.">
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        /* Header Styles */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        
+        .tagline {
+            font-style: italic;
+        }
+        
+        /* Navigation */
+        nav {
+            background-color: #34495e;
+            padding: 0.5rem 0;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin: 0 1rem;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            background-color: #2c3e50;
+        }
+        
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        .hero {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('printing-banner.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin-bottom: 2rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #e74c3c;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: #c0392b;
+        }
+        
+        /* Services Section */
+        .services {
+            margin: 3rem 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #2c3e50;
+            font-size: 2rem;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .service-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-img {
+            height: 200px;
+            background-color: #ddd;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .service-content {
+            padding: 1.5rem;
+        }
+        
+        .service-content h3 {
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+        
+        /* About Section */
+        .about {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin: 3rem 0;
+        }
+        
+        /* Contact Section */
+        .contact {
+            margin: 3rem 0;
+        }
+        
+        .contact-info {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-top: 2rem;
+        }
+        
+        .contact-info p {
+            margin-bottom: 1rem;
+        }
+        
+        .contact-info i {
+            margin-right: 0.5rem;
+            color: #e74c3c;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        
+        .social-links {
+            margin: 1rem 0;
+        }
+        
+        .social-links a {
+            color: white;
+            margin: 0 0.5rem;
+            font-size: 1.5rem;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin: 0.5rem 0;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Ayu Advertising and Printing</div>
+        <div class="tagline">Quality Printing Solutions in Holeta</div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="home" class="hero">
+            <h1>Professional Printing Services in Holeta</h1>
+            <p>High-quality printing solutions for businesses and individuals. Fast turnaround, competitive prices, and exceptional customer service.</p>
+            <a href="#contact" class="btn">Get a Quote Today</a>
+        </section>
+        
+        <section id="services" class="services">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('images/business-cards.jpeg');"></div>
+                    <div class="service-content">
+                        <h3>Business Cards</h3>
+                        <p>Professional business card printing with various paper stocks and finishes to make your first impression count.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('images/banners.jpeg');"></div>
+                    <div class="service-content">
+                        <h3>Banners & Signage</h3>
+                        <p>Eye-catching banners and signage for events, promotions, and business identification in various sizes and materials.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('images/flyers.jpeg');"></div>
+                    <div class="service-content">
+                        <h3>Flyers & Brochures</h3>
+                        <p>Effective marketing materials designed to promote your business, products, or services to your target audience.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('images/stationery.png');"></div>
+                    <div class="service-content">
+                        <h3>Stationery</h3>
+                        <p>Complete corporate stationery including letterheads, envelopes, and notepads with your branding.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('images/labels.jpeg');"></div>
+                    <div class="service-content">
+                        <h3>Labels & Stickers</h3>
+                        <p>Custom labels and stickers for product packaging, branding, or promotional purposes.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-img" style="background-image: url('images/large-format.jpeg');"></div>
+                    <div class="service-content">
+                        <h3>Large Format Printing</h3>
+                        <p>High-quality large format printing for posters, billboards, vehicle graphics, and more.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="about" class="about">
+            <h2 class="section-title">About Ayu Advertising and Printing</h2>
+            <p>Welcome to Ayu Advertising and Printing, your trusted printing partner in Holeta, Oromia. With years of experience in the printing industry, we are committed to delivering high-quality printing services to businesses and individuals throughout Ethiopia.</p>
+            <p>Our team of skilled professionals uses state-of-the-art printing technology to ensure your materials are produced with the highest standards of quality and precision. We understand the importance of effective advertising materials in today's competitive market, and we're here to help you make a lasting impression.</p>
+            <p>At Ayu Advertising and Printing, customer satisfaction is our top priority. We work closely with our clients to understand their needs and deliver customized solutions that meet their specific requirements and budget.</p>
+        </section>
+        
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p><i>📞</i> Phone: 0924172868 or 0953880190</p>
+                <p><i>🏠</i> Address: Holeta, Oromia, Ethiopia</p>
+                <p><i>🕒</i> Working Hours: Monday - Saturday, 8:30 AM - 6:30 PM</p>
+                <p>Visit our shop in Holeta for all your printing needs or call us to discuss your project requirements. We offer free consultations and competitive pricing for all our services.</p>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Ayu Advertising and Printing. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#"><i>📱</i></a>
+            <a href="#"><i>📧</i></a>
+            <a href="#"><i>💬</i></a>
+        </div>
+        <p>Quality Printing Services in Holeta, Oromia, Ethiopia</p>
+    </footer>
+</body>
+</html>
